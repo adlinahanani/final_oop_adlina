@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main1.css"/>
+  <title>GO HIKING</title>
+  <style>
+
+  </style>
+</head>
+<body>
+    <!--Navigation Menu-->
+    <div class="header">
+      <a href="home" class="logo">Go Hiking</a>
+      <div class="header-right">
+        <a href="main.html">Home</a>
+        <a href="index.html">Things-To-Bring</a>
+        <a href="#" onclick="self.close();">Exit</a>
+      </div>
+    </div>
+
+    <!--Hiking Card Information-->
+    <div class="card">
+      <div class="container">
+        <h4>Search for your hiking information below!</h4>
+        <input type="text" id="city_input" placeholder="Enter Your Hiking Spot">
+        <button onclick="buttonClicked()">Enter</button>
+        <p id="hiking">Choosen Hiking Spot is: </p>
+        <p id="temp">Temperature is: </p>
+        <p id="wind">Wind speed is: </p>
+        <p id="humid">Humidity is: </p>
+        <p id="lat">Latitude is: </p>
+        <p id="lot">Longitude is: </p>
+        <script src="main1.js"></script>
+      </div>
+    </div>
+
+</body>
+</html>
+    

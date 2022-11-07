@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Things-To-Bring</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+
+  </head>
+  <body>
+
+    <!--Navigation Menu-->
+    <div class="header">
+      <a href="main.html" class="logo">Go Hiking</a>
+      <div class="header-right">
+        <a href="main.html">Home</a>
+        <a href="index.html">Things-To-Bring</a>
+        <a href="#" onclick="self.close();">Exit</a>
+      </div>
+    </div>
+
+    <!--txt file containing things-to-bring-->
+    <div class="rightcolumn">
+      <div class="card">
+        <div class="mainWrapper">
+          <form>
+            <div class="form-group">
+              <h4><strong>You can insert your Things-To-Bring notes here!</strong></h4><br>
+              <label><strong>File name (.txt)</strong></label>
+              <input id="fileName" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label><strong>Things-To-Bring</strong></label>
+              <textarea id="fileContents" class="form-control" rows="5"></textarea>
+            </div>
+          </form>
+
+          <button id="btnCreate" class="btn btn-default">Create</button>
+          <button id="btnRead" class="btn btn-default">Read</button>
+          <button id="btnUpdate" class="btn btn-default">Update</button>
+          <button id="btnDelete" class="btn btn-default">Delete</button>
+        </div>
+      </div>
+    </div>
+
+      <script src="main.js"></script>
+  </body>
+</html>
